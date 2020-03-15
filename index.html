@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salary Calculator</title>
+    <script src="Jquery.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>Salary Calculator</header>
+
+      <form class="enter ">
+          <h1> Add Employee</h1>
+          <div class="container">
+      <div>
+        <label for="first Name"></label>
+          <input class="js-input-first" required type="text" placeholder="First Name" id="First Name" name="First Name" />
+        </label>
+      </div>
+      <div>
+        <label for="last Name"></label>
+        <input class="js-input-last" required type="text" placeholder="Last Name" id="Last Name" name="Last Name" />
+      </div>
+      <div>
+        <label for="ID"></label>
+        <input class="js-input-id" required type="number" placeholder="ID" id="ID" name="ID" />
+    </div>
+    <div>
+      <label for="Title"></label>
+      <input class="js-input-title" required type="text" placeholder="Title" id="Title" name="Title" />
+    </div> 
+    <div>
+        <label for="salary"></label>
+        <input class="js-input-Salary" required type="number" placeholder="Salary" id="Salary" name="Salary" />
+      </div>
+    </form>
+
+    
+    </main>
+</form>
+<h2> Employees</h2>
+
+   <!-- Make a table that displays all Employees information -->
+   <table class="table">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>I.D.</th>
+        <th>Title</th>
+        <th colspan="2">Annual Salary</th>
+      </tr>
+    </thead>
+    <tbody class="js-table-body">
+      <tr class="js-table-body-row">
+        <td>Place Holder</td>
+        <td>Place Holder</td>
+        <td>Place Holder</td>
+        <td>Place Holder</td>
+        <td>Place Holder</td>
+        <td class="alnCenter"><button class="js-btn-delete btn">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</table>
+  <!-- Display the total slary for all my employees-->
+  <div class="total">
+    Total Monthly: <span class="js-total-Salary">10000.00</span>
+  </div>
+</main>
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #3b67dd;
+  color: #ceb0b0;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Lucida Sans;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 3px rgba(59, 58, 58, 0.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px 0;
+}
+
+.container {
+  align-self: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.alnCenter {
+  text-align: center;
+  font-weight: bolder;
+  margin: 0 0 20px 0;
+}
+.total {
+  text-align: right;
+  font-weight: 500;
+}
